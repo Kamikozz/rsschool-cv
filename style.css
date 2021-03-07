@@ -1,0 +1,200 @@
+body {
+  font-size: 5vw;
+  font-family: monospace;
+  text-align: center;
+
+  background-color: white;
+}
+
+p {
+  margin: 0;
+}
+
+a,
+a:visited {
+  color: darkred;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 1px 1px black;
+}
+
+table {
+  margin-right: 1em;
+  margin-bottom: 0.75em;
+
+  font-size: 0.6em;
+
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5em;
+
+  border: 1px solid lightgrey;
+}
+
+table > tbody > tr:last-child {
+  background-color: rgb(171, 176, 180);
+}
+
+mark {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+
+  border-radius: 0.2em;
+}
+
+mark.lately {
+  background-color: lightgreen;
+}
+
+mark.forgot {
+  background-color: lightcoral;
+}
+
+mark::before {
+  content: "[";
+}
+
+mark::after {
+  content: "]";
+}
+
+.cv-container {
+  display: inline-block;
+  width: 95%;
+  max-width: 1024px;
+
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+.cv {
+  padding-bottom: 0.7em;
+
+  background-color: white;
+}
+
+.cv-badge {
+  display: inline-block;
+  width: 20%;
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-size: 1em;
+  color: white;
+
+  background-color: darkred;
+}
+
+.cv-header {
+  display: block;
+
+  text-align: left;
+}
+
+.cv-header div {
+  font-size: 1.25em;
+}
+
+.cv-header div b {
+  margin: 0;
+}
+
+.cv-header div span {
+  margin-left: 0.5em;
+
+  font-size: 0.3em;
+}
+
+.cv-header img {
+  width: 20%;
+
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+.cv-section {
+  font-size: 0.5em;
+}
+
+.cv-section h2 {
+  margin-bottom: 0.25em;
+  padding-left: 0.2em;
+  padding-bottom: 0.1em;
+
+  border-left: 0.7em solid darkred;
+  border-bottom: 0.1em solid darkred;
+
+  text-transform: uppercase;
+  box-shadow: 0px 1px 0px 0px black;
+}
+
+.cv-section p {
+  font-size: 0.8em;
+}
+
+.cv-section ul {
+  margin: 0;
+  margin-left: 0.75em;
+  padding: 0;
+
+  font-size: 0.8em;
+  list-style: none;
+}
+
+.cv-section ul > li {
+  margin-bottom: 0.3em;
+}
+
+.cv-section ul > li::before {
+  margin-right: 0.5em;
+
+  color: darkred;
+
+  content: "■";
+}
+
+.cv-section-email {
+  float: left;
+  height: 2.4em;
+  margin-right: 0.6em;
+}
+
+.cv-section h4 {
+  margin: 0;
+  margin-bottom: 0.1em;
+}
+
+.cv-section section {
+  margin-bottom: 0.6em;
+}
+
+.left-column.cv-section {
+  width: 50%;
+}
+
+.right-column.cv-section {
+  width: 40%;
+  margin-right: 0;
+  padding-right: 1em;
+}
+
+.left-column {
+  float: left;
+  padding-left: 1em;
+
+  text-align: left;
+}
+
+.right-column {
+  float: right;
+  margin-right: 3.7em;
+  
+  text-align: left;
+}
+
+.clearfix {
+  clear: both;
+}
